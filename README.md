@@ -1,2 +1,2 @@
-# partner-client-php
+# partner-sdk-php
 PHP Library for Kerb Partner 
