@@ -23,8 +23,6 @@ $request = new Ping($options);
 $request->setHeader('testing', 'ok');
 $request->setHeader('not-used', null);
 
-$response = $partner->request($request);
-
-
+$response = Partner::request($request);
 
 ```
