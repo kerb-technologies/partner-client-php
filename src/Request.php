@@ -56,7 +56,7 @@ abstract class Request extends SetGet
         // override header value
         $headers = $this->headers;
         $headers['Kerb-Partner-Version'] = Partner::getVersion();
-        $headers['Authorization'] = 'Bearer ' . Partner::getApiKey();
+        $headers['Kerb-Partner-Key'] = Partner::getApiKey();
 
         $options = $this->data;
         $options['headers'] = $headers;
