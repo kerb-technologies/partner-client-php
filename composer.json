@@ -1,5 +1,7 @@
 {
     "name": "kerb/partner-sdk-php",
+    "description": "Kerb Partner SDK for PHP",
+    "license": "MIT",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^9.5@dev",
@@ -14,9 +16,6 @@
         "classmap": [
             "src/"
         ]
-    },
-    "psr-4": { 
-        "Kerb\\Partner\\": "src/"
     },
     "scripts": { 
         "tests": "composer dumpautoload && ./vendor/bin/phpunit tests --coverage-html ./report $@"
